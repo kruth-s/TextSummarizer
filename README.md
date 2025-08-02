@@ -1,118 +1,130 @@
-# ✨ TextSummarize.AI – Smart Text Summarizer
+# TextSummarize.AI – AI-Powered Text Summarizer
 
-> 📚 Instantly summarize long articles, documents, or essays using AI.
+**TextSummarize.AI** is a modern web application designed to help students, researchers, and content creators quickly generate concise summaries of long-form text using advanced natural language processing (NLP) models.
 
-![TextSummarizer Banner](./assets/banner.png)
-
-## 🚀 Overview
-
-TextSummarize.AI is a modern web application built for students and content creators to quickly shorten lengthy text into concise summaries using cutting-edge natural language processing (NLP) models.
-
-Whether you're studying for exams, researching, or just want TL;DRs, this tool helps you save time and boost productivity.
+Whether you're preparing for exams, reviewing articles, or simply need a brief overview of content, TextSummarize.AI enables faster comprehension and improved productivity.
 
 ---
 
-## 🛠 Tech Stack
+## Table of Contents
 
-### 💻 Frontend
-- **React** with **Vite** – blazing fast UI development
-- **TailwindCSS** – modern utility-first styling
-- **Framer Motion** – smooth animations and transitions
-
-### 🧠 Backend
-- **Node.js** + **Express** – RESTful API for handling requests
-- **OpenAI GPT API** or **HuggingFace Transformers** – for generating text summaries
-- **dotenv** – manage API keys securely
-
-### 🔐 Others
-- **Axios** – API calls from client to server
-- **React Toastify** – beautiful and non-blocking toast messages
-- **Vercel / Netlify** – frontend deployment
-- **Render / Railway / Cyclic** – backend deployment
+- [Overview](#overview)
+- [Tech Stack](#tech-stack)
+- [Features](#features)
+- [Installation](#installation)
+- [Screenshots](#screenshots)
+- [Roadmap](#roadmap)
+- [License](#license)
 
 ---
 
-## 🔍 Features
+## Overview
 
-- ✏️ Paste or upload text to summarize
-- 🧠 AI-powered summary generation
-- 🌗 Dark mode toggle
-- 📋 Copy summary with one click
-- 🔄 Reset and retry functionality
-- 📱 Fully responsive design
+TextSummarize.AI streamlines the process of summarizing large blocks of text into clear and readable formats. Built with modern frontend and backend technologies, it integrates AI models such as OpenAI's GPT or HuggingFace Transformers to deliver reliable and coherent summaries.
 
 ---
 
-## 🧪 Installation (Dev Mode)
+## Tech Stack
 
-### 1. Clone the repo
+### Frontend
+- **React** (with Vite) – for fast and modern UI development
+- **Tailwind CSS** – utility-first CSS framework
+- **Framer Motion** – for smooth UI animations
+
+### Backend
+- **Node.js** with **Express** – for API routing and server logic
+- **OpenAI GPT API** or **HuggingFace Transformers** – used for generating text summaries
+- **dotenv** – for managing environment variables securely
+
+### Additional Tools
+- **Axios** – to manage client-server API communication
+- **React Toastify** – for non-blocking, user-friendly notifications
+- **Deployment Platforms**:
+  - Frontend: Vercel / Netlify
+  - Backend: Render / Railway / Cyclic
+
+---
+
+## Features
+
+- Input large blocks of text or paste directly
+- AI-generated summaries using modern NLP models
+- Clean and responsive user interface
+- Dark mode toggle for accessibility
+- One-click copy-to-clipboard for results
+- Reset and regenerate functionality
+
+---
+
+## Installation
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/textsummarize-ai.git
 cd textsummarize-ai
 ```
 
-### 2. Install dependencies
+### 2. Install Dependencies
 
 ```bash
-# For frontend
+# Install frontend dependencies
 cd client
 npm install
 
-# For backend
+# Install backend dependencies
 cd ../server
 npm install
 ```
 
-### 3. Set up API keys
+### 3. Configure Environment Variables
 
-- Create a `.env` file in the `/server` directory:
+In the `/server` directory, create a `.env` file with the following content:
 
 ```env
-OPENAI_API_KEY=your_openai_key_here
+OPENAI_API_KEY=your_openai_api_key_here
 PORT=5000
 ```
 
-### 4. Run the project
+### 4. Run the Application
 
 ```bash
-# Run backend
+# Start backend server
 cd server
 npm run dev
 
-# Run frontend
+# Start frontend development server
 cd ../client
 npm run dev
 ```
 
-Now go to `http://localhost:5173`
+Navigate to `http://localhost:5173` in your browser to access the application.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-| Input Page | Output Summary |
+| Input Page | Summary Output |
 |------------|----------------|
-| ![Input](./assets/input.png) | ![Output](./assets/output.png) |
+| ![Input Page](./assets/input.png) | ![Summary Output](./assets/output.png) |
 
 ---
 
-## 📌 Roadmap
+## Roadmap
 
 - [ ] Add file upload support (PDF, DOCX)
-- [ ] Support multiple languages
-- [ ] Enable login + save history
-- [ ] Mobile PWA support
+- [ ] Multi-language summary support
+- [ ] User authentication and summary history
+- [ ] Progressive Web App (PWA) support
 
 ---
 
-## 🙋‍♂️ Made With Love by a Student
-
-Built as a learning project to explore modern web development and AI integration. Open to contributions, suggestions, or collaborations!
-
----
-
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
+---
+
+## About
+
+Developed as a learning project to explore modern web development practices and AI integration. Contributions, suggestions, and collaborations are welcome.
