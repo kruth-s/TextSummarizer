@@ -6,18 +6,6 @@ Whether you're preparing for exams, reviewing articles, or simply need a brief o
 
 ---
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Tech Stack](#tech-stack)
-- [Features](#features)
-- [Installation](#installation)
-- [Screenshots](#screenshots)
-- [Roadmap](#roadmap)
-- [License](#license)
-
----
-
 ## Overview
 
 TextSummarize.AI streamlines the process of summarizing large blocks of text into clear and readable formats. Built with modern frontend and backend technologies, it integrates AI models such as OpenAI's GPT or HuggingFace Transformers to deliver reliable and coherent summaries.
@@ -128,3 +116,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## About
 
 Developed as a learning project to explore modern web development practices and AI integration. Contributions, suggestions, and collaborations are welcome.
+
