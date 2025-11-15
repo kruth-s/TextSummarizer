@@ -1,0 +1,5 @@
+{
+  "name": "TextSummarize.AI",
+  "description": "An AI-powered web application that generates concise summaries of long-form text using the Gemini API. It helps students, researchers, and content creators save time and understand content faster.",
+  "requestFramePermissions": []
+}
