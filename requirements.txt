@@ -1,9 +1,0 @@
-# Project dependencies.
-gradio
-transformers
-torch
-pdfplumber
-python-docx
-SpeechRecognition
-pydub
--e .
